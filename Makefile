@@ -1,3 +1,4 @@
+.PHONY: install brain-games publish 
 install:
     npm ci
 
