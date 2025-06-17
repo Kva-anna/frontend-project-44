@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import runGame from '../src/runGame.js';
-import { generationNumber, isPrime } from '../src/helpers/helpers.js';
+import { generationNumber, isPrime } from '../src/index.js';
 
 const generatePrimeQuestion = () => {
   const num = generationNumber();

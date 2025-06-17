@@ -1,24 +1,19 @@
-.PHONY: install brain-games brain-even brain-calc publish 
-install:
-    npm ci
+PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime publish 
 
-brain-games:
-    node bin/brain-games.js
+npm:	npm install
 
-brain-even:
-    node bin/brain-even.js
+install:	npm ci
 
-brain-calc:
-	node bin/brain-calc.js
+brain-games:	node bin/brain-games.js
 
-brain-gcd:
-	node bin/brain-gcd.js
+brain-even:	node bin/brain-even.js
 
-brain-progression:
-	node bin/brain-progression.js
+brain-calc:	node bin/brain-calc.js
+
+brain-gcd:	node bin/brain-gcd.js
+
+brain-progression:	node bin/brain-progression.js
     
-brain-prime:
-	node bin/brain-prime.js
+brain-prime:	node bin/brain-prime.js
 
-publish:
-    npm publish --dry-run
+publish:	npm publish --dry-run

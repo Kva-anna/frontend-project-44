@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { generationArithmeticProgression, replaceRandomWithDots } from '../src/helpers/helpers.js';
+import { generationArithmeticProgression, replaceRandomWithDots } from '../src/index.js';
 import runGame from '../src/runGame.js';
 
 const generateProgressionQuestion = () => {

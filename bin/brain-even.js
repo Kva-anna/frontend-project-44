@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-// ↑ Шебанг (обязательно!) — указывает, что скрипт запускается через Node.js
 
-import { isEven, generationNumber } from '../src/helpers/helpers.js';
+import { isEven, generationNumber } from '../src/index.js';
 import runGame from '../src/runGame.js';
 
 const generateEvenQuestion = () => {

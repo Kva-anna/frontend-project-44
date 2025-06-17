@@ -47,7 +47,7 @@ export const gcd = (a, b) => {
 };
 
 export const generationNumber = () => {
-  return Math.floor(Math.random() * 101);
+  return Math.floor(Math.random() * 101)
 };
 
 export const generationArithmeticProgression = () => {

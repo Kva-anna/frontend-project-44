@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { gcd, generationNumber } from '../src/helpers/helpers.js';
+import { gcd, generationNumber } from '../src/index.js';
 import runGame from '../src/runGame.js';
 
 const generateGcdQuestion = () => {
